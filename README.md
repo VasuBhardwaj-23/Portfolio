@@ -8,7 +8,7 @@ I enjoy working with data to identify patterns, generate meaningful insights, an
 
 ## 🌐 Live Portfolio
 
-**[Visit My Portfolio →](https://vasubhardwaj-23.github.io/Vasu-Bhardwaj.github.io/)**
+**[Visit My Portfolio →](https://github.com/VasuBhardwaj-23/Portfolio)**
 
 ## ✨ What You'll Find Here
 
