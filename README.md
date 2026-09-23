@@ -1,49 +1,169 @@
-# Yash Awasthi — Personal Portfolio
+# Vasu Bhardwaj — Data Analyst | Data Science Portfolio
 
-Welcome to my personal portfolio repository! This is a modern, high-performance, single-page web portfolio showcasing my projects, skills, and background as an **Aspiring Data Analyst** and student at SAGE University, Bhopal.
+Welcome to my personal portfolio repository.
 
-**Live site**: [yashawasthi27.github.io/Portfolio](https://yashawasthi27.github.io/Portfolio/)
+I am a **Computer Science & Engineering graduate** focused on **Data Analytics, Data Science, Machine Learning, and Business Intelligence**. This portfolio showcases my technical skills, projects, certifications, and practical work across data analysis, visualization, SQL, Python, and AI/ML.
 
-![Portfolio Preview](images//portfolio.jpg)
+I enjoy working with data to uncover patterns, build meaningful insights, and turn raw information into clear, data-driven solutions.
 
-## ✨ Core Features
+## 🌐 Portfolio
 
-- **Minimalist Monochrome Design**: A clean, black-and-white design system with subtle glassmorphism, smooth transitions, and full responsiveness across desktop and mobile.
-- **Unified Navbar**: Logo, centered navigation (Home / About / Skills / Projects / Resume / Contact), and social links (LinkedIn/GitHub/Email) all in one sticky bar — collapses into a hamburger menu with a scroll-locked background on mobile.
-- **Hero Section**: Profile photo with glow effect, quick intro, primary CTAs ("View My Work" / "Download Resume"), and a "Let's talk" link into the contact section, backed by a four-item quick-overview strip (Education, Focus, Tech Stack, Career Goal).
-- **Scroll-Reveal Animations**: Sections and cards fade/slide into view using the `IntersectionObserver` API — no scroll-position polling, no layout thrashing.
-- **Smooth Scrolling**: Lenis-powered 60fps eased scrolling across the page.
-- **Live Project Details**: Clicking a project card opens a modal that fetches that repo's README directly from GitHub and renders it client-side, with embedded fallback content for offline/error cases.
-- **In-App Resume Preview**: Resume links open an inline PDF preview modal instead of navigating away, alongside a direct download option.
-- **Contact Form**: Client-side validated contact form (name, email, subject, message with live character counter) with a honeypot field for spam protection.
-- **Clipboard Integration**: One-click copy-to-clipboard for my email address, with a toast confirmation.
-- **Back to Top**: Floating button appears after scrolling, smooth-scrolls back to the hero section.
+**Live Portfolio:**  
+[Visit My Portfolio](https://vasubhardwaj-23.github.io/Vasu-Bhardwaj.github.io/)
 
-## ⚡ Performance
+## ✨ What You'll Find Here
 
-- **Optimized Assets**: All images (profile photo, logo, project screenshots) are resized and compressed to match their actual display size — total image payload cut by over 90%.
-- **Mobile-Aware Blur**: `backdrop-filter` (an expensive GPU operation on sticky elements) is disabled on touch devices in favor of a near-solid background, keeping scroll at a steady frame rate on phones.
-- **`content-visibility: auto`** on off-screen project cards so the browser skips rendering work until they're needed.
-- **In-Memory README Caching**: Repeated clicks on the same project card reuse the cached GitHub response instead of re-fetching.
-- **Cached Nav Lookups**: Navigation link elements are queried once and cached in a map, avoiding repeated DOM lookups during scroll.
-- **Passive Scroll Listeners** + `requestAnimationFrame` throttling on scroll-driven UI (e.g. the back-to-top button).
-- **Cache-Busted Assets**: Versioned stylesheet query strings (`index.css?v=`) paired with no-cache meta headers to ensure visitors always see the latest deploy.
+- Data Analytics and Data Science projects
+- SQL-based business and sales analysis
+- Python-based data analysis and machine learning projects
+- Interactive dashboards and business intelligence projects
+- Machine Learning projects and predictive models
+- Technical skills, certifications, and professional experience
+- Resume and professional contact information
 
+## 🛠️ Core Skills
+
+### Programming & Data Analysis
+- Python
+- SQL
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
+
+### Data Visualization & Business Intelligence
+- Power BI
+- Tableau
+- Excel
+- Data Visualization
+- Exploratory Data Analysis
+- Business Intelligence
+- Dashboard Development
+
+### Machine Learning & AI
+- Scikit-learn
+- Machine Learning
+- Predictive Analytics
+- Generative AI
+- AI/ML Fundamentals
+
+### Databases & Tools
+- Microsoft SQL Server
+- PostgreSQL
+- Git
+- GitHub
+- Oracle Cloud
+- VS Code
+
+## 📊 Featured Work
+
+My portfolio includes practical projects covering areas such as:
+
+- **Business & Sales Analytics** — transforming transactional data into meaningful business insights using SQL, Python, and dashboards.
+- **Employee Attrition Analysis** — analyzing employee data to identify patterns and factors associated with workforce attrition.
+- **Financial Analytics** — exploring financial transaction data and developing analytical dashboards.
+- **Machine Learning Projects** — building predictive models using Python and Scikit-learn.
+- **Data Visualization Projects** — creating interactive dashboards and visual reports using Power BI and Tableau.
+
+Each project focuses on a practical problem, data analysis workflow, and actionable insights rather than just showcasing code.
+
+## ⚡ Portfolio Features
+
+- **Responsive Single-Page Design:** Optimized for desktop, tablet, and mobile devices.
+- **Minimalist Interface:** Clean monochrome visual design with subtle glassmorphism and smooth transitions.
+- **Project Showcase:** Dedicated project cards with detailed project information.
+- **Live Project Details:** Project cards can fetch and display repository README content directly from GitHub.
+- **Resume Preview:** Resume can be viewed through an in-app PDF preview with a direct download option.
+- **Smooth Navigation:** Lenis-powered smooth scrolling throughout the portfolio.
+- **Scroll-Reveal Animations:** Sections and cards animate into view using the `IntersectionObserver` API.
+- **Contact Section:** Provides a direct way to connect for professional opportunities and collaboration.
+- **Clipboard Integration:** One-click email copying with confirmation feedback.
+- **Responsive Navigation:** Mobile-friendly hamburger navigation with scroll locking.
+- **Back-to-Top Navigation:** Quick navigation back to the hero section after scrolling.
+
+## ⚙️ Performance & Optimization
+
+The portfolio has been developed with performance in mind:
+
+- Optimized image assets to reduce page load size.
+- Mobile-aware blur effects to reduce GPU usage on touch devices.
+- `content-visibility: auto` for off-screen content.
+- In-memory caching for repeated GitHub README requests.
+- Cached navigation element lookups.
+- Passive scroll listeners with `requestAnimationFrame` throttling.
+- Cache-busted CSS assets to ensure visitors receive updated versions.
 
 ## ♿ Accessibility & SEO
 
-- Skip-to-content link, visible `:focus-visible` states, and `aria-current="page"` on the active nav link.
-- Open Graph & Twitter Card meta tags for rich link previews, JSON-LD `Person` schema, canonical URL, `robots.txt`, and `sitemap.xml`.
+The portfolio includes:
 
-## 🛠️ Tech Stack
+- Skip-to-content navigation
+- Visible `:focus-visible` states
+- Accessible navigation states using `aria-current`
+- Open Graph metadata
+- Twitter Card metadata
+- JSON-LD structured data
+- Canonical URL
+- `robots.txt`
+- `sitemap.xml`
 
-- **Frontend Core**: Semantic HTML5 & modern CSS3 (custom properties, Flexbox/Grid, keyframe animations)
-- **Vanilla JavaScript**: No frameworks — `IntersectionObserver`, dynamic GitHub README fetching, Clipboard API
-- **Smooth Scroll**: [Lenis](https://lenis.darkroom.engineering/)
-- **Markdown Rendering**: [Marked.js](https://marked.js.org/) for client-side README parsing
+## 💻 Tech Stack
 
-## 📫 Connect with me
+- **HTML5** — Semantic page structure
+- **CSS3** — Custom properties, Flexbox, Grid, animations, responsive design
+- **JavaScript** — DOM manipulation, IntersectionObserver, Clipboard API, dynamic content loading
+- **Lenis** — Smooth scrolling
+- **Marked.js** — Client-side Markdown rendering
+- **GitHub API** — Dynamic project README integration
+- **GitHub Pages** — Portfolio deployment
 
-- **LinkedIn**: [Yash Awasthi](https://www.linkedin.com/in/yashawasthi27/)
-- **GitHub**: [@yashawasthi27](https://github.com/yashawasthi27)
-- **Email**: yashonwork247@gmail.com
+## 🎓 Education
+
+**B.Tech — Computer Science & Engineering**
+
+Apeejay Institute of Management and Engineering Technical Campus, Jalandhar, Punjab, India
+
+**CGPA:** 8.57
+
+## 📜 Certifications & Learning
+
+My professional learning includes certifications and training across:
+
+- Data Science
+- Artificial Intelligence
+- Generative AI
+- Cloud Computing
+- GitHub
+- Cybersecurity
+- Data Analytics
+
+## 🤝 Open to Opportunities
+
+I am interested in opportunities related to:
+
+- Data Analyst
+- Junior Data Analyst
+- Data Scientist
+- Business Analyst
+- Data Engineer
+- AI/ML Engineer
+- Machine Learning roles
+
+I am open to **full-time opportunities, entry-level roles, internships, and collaborative data-driven projects**.
+
+If you are a recruiter, hiring manager, professional, or organization looking for someone with a strong foundation in **Python, SQL, Data Analytics, Business Intelligence, Machine Learning, and AI/ML**, feel free to connect with me.
+
+## 📫 Connect With Me
+
+- **LinkedIn:** [Vasu Bhardwaj](https://www.linkedin.com/in/vasu-bhardwaj07)
+- **GitHub:** [VasuBhardwaj-23](https://github.com/VasuBhardwaj-23)
+- **Email:** [vasubhardwaj023@gmail.com](mailto:vasubhardwaj023@gmail.com)
+
+---
+
+### Let's Connect
+
+I'm always open to discussing **data, analytics, machine learning, technology, professional opportunities, and meaningful projects**.
+
+**Thank you for visiting my portfolio.**
