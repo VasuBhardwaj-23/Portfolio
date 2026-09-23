@@ -8,9 +8,7 @@ I enjoy working with data to identify patterns, generate meaningful insights, an
 
 ## 🌐 Live Portfolio
 
-**[Visit My Portfolio →]([https://github.com/VasuBhardwaj-23/Portfolio](https://vasubhardwaj-23.github.io/Portfolio/))**
-
-## ✨ What You'll Find Here
+**[Visit My Portfolio →](https://vasubhardwaj-23.github.io/Portfolio/)**
 
 - Data Analytics and Data Science projects
 - SQL-based business and sales analysis
